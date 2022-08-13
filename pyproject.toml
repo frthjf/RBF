@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "cython"]
+requires = ["setuptools", "wheel", "Cython"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -24,11 +24,11 @@ classifiers = [
 
 dependencies = [
   "numpy>=1.10",
-"scipy",
-"sympy",
-"cython",
-"rtree",
-"scikit-sparse>=0.4.2"
+  "scipy",
+  "sympy",
+  "cython",
+  "rtree",
+  "scikit-sparse>=0.4.2"
 ]
 
 [project.optional-dependencies]
@@ -39,5 +39,4 @@ test = [
 ]
 
 [project.urls]
-homepage = "https://github.com/treverhines/RBF"
 repository = "https://github.com/treverhines/RBF"
