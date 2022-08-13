@@ -28,8 +28,7 @@ dependencies = [
   "scipy",
   "sympy",
   "cython",
-  "rtree",
-  "scikit-sparse>=0.4.2"
+  "rtree"
 ]
 
 [project.optional-dependencies]

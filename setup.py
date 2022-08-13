@@ -54,7 +54,6 @@ if __name__ == "__main__":
             "scipy",
             "sympy",
             "cython",
-            "rtree",
-            "scikit-sparse>=0.4.2"
+            "rtree"
         ]
     )
