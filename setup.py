@@ -49,4 +49,12 @@ if __name__ == "__main__":
         ext_modules=ext,
         include_package_data=True,
         license="MIT",
+        install_requires=[
+            "numpy>=1.10",
+            "scipy",
+            "sympy",
+            "cython",
+            "rtree",
+            "scikit-sparse>=0.4.2"
+        ]
     )
