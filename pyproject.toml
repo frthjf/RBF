@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel", "Cython", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rbflib"
+name = "rbf"
 version = "1.0"
 description = "Package containing the tools necessary for radial basis function (RBF) applications"
 readme = "README.rst"
